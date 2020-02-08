@@ -44,7 +44,7 @@ public class Controller {
 				    List<Comparendo> lista = modelo.cargarDatos();
 				    long end = System.currentTimeMillis();
 				    
-				    view.printMessage("Tiempo de carga (s): " + (end-start)/1000.0);
+				    view.printMessage("Tiempo de carga (seg): " + (end-start)/1000.0);
 					view.printMessage("Datos cargados: " + lista.size() + "\n");
 					view.printMessage("Primer dato: " + lista.get(0) + "\n");
 					view.printMessage("Ultimo dato: " + lista.get(lista.size() - 1 ) + "\n");
