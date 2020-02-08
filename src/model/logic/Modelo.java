@@ -21,8 +21,8 @@ import model.Comparendo;
  */
 public class Modelo {
 	
-//	public static String PATH = "./data/comparendos_dei_2018_small.geojson";
-	public static String PATH = "./data/comparendos_dei_2018.geojson";
+	public static String PATH = "./data/comparendos_dei_2018_small.geojson";
+//	public static String PATH = "./data/comparendos_dei_2018.geojson";
 	
 	
 	public List<Comparendo> cargarDatos() {
